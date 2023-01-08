@@ -7,6 +7,4 @@ const store = configureStore({
 	}
 });
 
-injectStore(store);
-
 export default store;
