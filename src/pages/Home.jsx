@@ -5,7 +5,7 @@ import Trending from '../components/Trending'
 
 const Home = () => {
   return (
-    <div className='flex max-w-[1000px] mx-auto'>
+    <div className='flex max-w-[1200px] mx-auto'>
       <Sidebar />
       <Feed />
       <Trending />
