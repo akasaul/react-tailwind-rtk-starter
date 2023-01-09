@@ -16,6 +16,12 @@ module.exports = {
 				"heading": "16px",
 				"body": "14px",
 				"caption": "10px"
+			},
+			fontFamily: {
+				"header": ['Montserrat', 'sans-serif']
+			},
+			screens: {
+				"xs": "300px"
 			}
 		},
 	},
