@@ -1,16 +1,16 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
-import Feed from '../components/Feed'
 import Trending from '../components/Trending'
+import User from '../components/User'
 
-const Home = () => {
+const Profile = () => {
   return (
     <div className='flex max-w-[1000px] mx-auto'>
       <Sidebar />
-      <Feed />
+      <User />
       <Trending />
     </div>
   )
 }
 
-export default Home
+export default Profile

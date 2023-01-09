@@ -23,22 +23,22 @@ const Post = () => {
               <p className='font-[400] leading-5 text-[15px] mb-3'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non reiciendis obcaecati quidem neque optio laborum nulla enim, quia possimus.
               </p>
-             <img className='rounded-lg' src="https://i.guim.co.uk/img/media/28ee11b8843ae00a551486e6a6c639fa68b0338f/0_273_3300_1980/master/3300.jpg?width=620&quality=85&dpr=1&s=none" alt="" />
+             <img className='rounded-lg mb-3' src="https://i.guim.co.uk/img/media/28ee11b8843ae00a551486e6a6c639fa68b0338f/0_273_3300_1980/master/3300.jpg?width=620&quality=85&dpr=1&s=none" alt="" />
              <div className='flex items-center justify-around'>
-                <span className='p-2 rounded-full cursor-pointer hover:bg-slate-300/20 hover:text-primary'>
+                <span className='p-2 rounded-full cursor-pointer hover:bg-slate-300/10 hover:text-primary'>
                   <BiBarChart />
                 </span>
-                <span className='p-2 rounded-full cursor-pointer hover:bg-slate-300/20 hover:text-primary'>
+                <span className='p-2 rounded-full cursor-pointer hover:bg-slate-300/10 hover:text-primary'>
                   <FaRegComment />
                 </span>
-                <span className='p-2 rounded-full cursor-pointer hover:bg-slate-300/20 hover:text-green-600'>
+                <span className='p-2 rounded-full cursor-pointer hover:bg-slate-300/10 hover:text-green-600'>
                   <FaRetweet />
                 </span>
-                <span className='p-2 rounded-full cursor-pointer hover:bg-slate-300/20 hover:text-red-600'>
+                <span className='p-2 rounded-full cursor-pointer hover:bg-slate-300/10 hover:text-red-600'>
                   <AiOutlineHeart />
                 </span>
-                <span className='p-2 rounded-full cursor-pointer hover:bg-slate-300/20 hover:text-primary'>
-                  <AiOutlineRetweet />
+                <span className='p-2 rounded-full cursor-pointer hover:bg-slate-300/10 hover:text-primary'>
+                  <BsUpload />
                 </span>
              </div>
           </div>
