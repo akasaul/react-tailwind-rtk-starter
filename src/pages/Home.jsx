@@ -6,7 +6,9 @@ import Trending from '../components/Trending'
 const Home = () => {
   return (
     <div className='flex'>
-      Home
+      <Sidebar />
+      <Feed />
+      <Trending />
     </div>
   )
 }
